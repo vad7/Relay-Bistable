@@ -1,6 +1,8 @@
 # Relay-Bistable
 Переключение бистабильного реле с одной обмоткой
 
+Используется драйвер мотора DRV8871, управляет переключением микроконтроллер ATTiny13A, опторазвязка при необходимости.
+
 ![image](https://github.com/user-attachments/assets/f4fa961b-c856-4491-8d01-08dd7417a387)
 
 Board for efficient operation of the HF3F bistable relay. For minimum consumption, a bistable relay with one coil is used. On/off control via the Atmel Attiny13A microcontroller. It is possible to use opto-isolation or without it.
